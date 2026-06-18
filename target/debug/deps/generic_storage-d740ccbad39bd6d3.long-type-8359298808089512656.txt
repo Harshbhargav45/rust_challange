@@ -1,3 +1,0 @@
-ConvertError<<S as Serializer>::Error, <U as Serializer>::Error>
-ConvertError<_, StorageError<<U as Serializer>::Error>>
-ConvertError<<S as Serializer>::Error, <U as Serializer>::Error>: From<ConvertError<_, StorageError<<U as Serializer>::Error>>>
